@@ -1,0 +1,30 @@
+Unsupervised Learning Assessment: Clustering with the Iris Dataset
+Objective
+The objective of this assessment was to evaluate the understanding and ability to apply clustering techniques to a real-world dataset, specifically the Iris dataset.
+
+1. Loading and Preprocessing
+Loaded the Iris dataset from the sklearn library.
+Dropped the species column since this is a clustering problem.
+Performed data preprocessing to prepare the dataset for clustering:
+Handled null values.
+Scaled the data for better clustering performance.
+2. Dimensionality Reduction with PCA
+Applied Principal Component Analysis (PCA) to reduce the dimensionality of the dataset from 4 dimensions to 2 dimensions.
+This step was crucial for visualization purposes, making it easier to see the clustering results in a 2D space.
+3. KMeans Clustering
+Determined the optimal number of clusters (k) using methods like the Elbow method and Silhouette score.
+Implemented KMeans clustering with the optimal k value.
+Visualized the clusters in the PCA-reduced space.
+Calculated the inertia to evaluate how well the clusters were formed, with a value of 144 noted.
+Evaluated the quality of clustering using the Silhouette score, which was found to be 0.55.
+4. Hierarchical Clustering
+Provided a brief description of how Hierarchical Clustering works and why it is suitable for the Iris dataset.
+Applied Agglomerative Hierarchical Clustering to the PCA-reduced dataset.
+Created a dendrogram to visualize the hierarchical relationships between data points.
+Observed clusters from the dendrogram and plotted the results to visualize the clusters.
+5. Visualization
+Created visualizations for both KMeans and Agglomerative Hierarchical Clustering, showcasing how the clusters were formed.
+Used distinct colors to differentiate the clusters.
+6. Conclusion
+Summarized the findings from KMeans and Hierarchical Clustering.
+Discussed the strengths and weaknesses of both clustering methods applied to the Iris dataset.
